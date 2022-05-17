@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #FFFFFF;
+}
+
+h2 span {
+    color: #4ADF86;
+    display: block;
+}
+
