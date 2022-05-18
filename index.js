@@ -1,20 +1,44 @@
 let passwordElements = document.querySelectorAll(".password-box");
+let asciiList = [];
 
 function fetchPasswords() {
+  getAsciiList();
   for (let i = 0; i < passwordElements.length; i++) {
-    passwordElements[i].value = generatePassword();
+    passwordElements[i].value = generatePassword(15);
   }
+
+  asciiList = [];
 
   // passwordBox.classList.remove("has-dots");
 }
 
-function generatePassword() {
-  let characters = [];
+function generatePassword(size) {
+  let numberList = getRandomNumberList(size);
+  console.log(numberList);
 
-  // Add all ASCII characters to character array.
-  for (let i = 32; i < 127; i++) {
-    characters.push(String.fromCharCode(i));
+  let charList = [];
+
+  for (let i = 0; i < size; i++) {
+    charList.push(asciiList[numberList[i]]);
   }
 
-  return "password";
+  console.log(charList);
+
+  return charList;
+}
+
+function getAsciiList() {
+  // Add all valid ASCII characters to character array.
+  for (let i = 33; i < 127; i++) {
+    asciiList.push(String.fromCharCode(i));
+  }
+}
+
+function getRandomNumberList(size) {
+  let list = [];
+  for (let i = 0; i < size; i++) {
+    // Allow zero for array index 0
+    list.push(Math.floor(Math.random() * asciiList.length));
+  }
+  return list;
 }
