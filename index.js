@@ -38,7 +38,3 @@ function getRandomNumberList(size) {
   }
   return list;
 }
-
-function copyToClipboard() {
-  console.log("Copied!");
-}
