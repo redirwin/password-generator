@@ -1,8 +1,6 @@
 # Random Password Generator
 
-This small project is a [Skrimba](https://scrimba.com/) challenge to create a random password generator from scratch using a provided Figma design as reference. The final MVP generates a list of four random passwords (a combination of lowercase letters, uppercase letters, numbers, and special characters) when the user clicks the **Generate Passwords** button.
-
-The original Figma design can be [found here](https://www.figma.com/file/YRO9Iw5IYaOorjnRyNz4bV/Random-Password-Generator?node-id=0%3A1).
+This small project is a [Skrimba](https://scrimba.com/) challenge to create a random password generator from scratch using a provided [Figma design](https://www.figma.com/file/YRO9Iw5IYaOorjnRyNz4bV/Random-Password-Generator?node-id=0%3A1) as reference. The final MVP generates a list of four random passwords (a combination of lowercase letters, uppercase letters, numbers, and special characters) when the user clicks the **Generate Passwords** button.
 
 My solution uses four JS functions to complete the challenge and is [hosted here](https://redirwin.github.io/password-generator/).
 
