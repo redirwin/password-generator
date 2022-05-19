@@ -8,7 +8,7 @@ My code uses four seperate functions to complete the challenge.
 
 My hosted solution can be [found here](https://redirwin.github.io/password-generator/).
 
-# MVP requirements:
+## MVP requirements:
 
 - Array to hold all possible chars
 - Button to generate 4 random password options
@@ -20,7 +20,7 @@ My hosted solution can be [found here](https://redirwin.github.io/password-gener
 - CSS
 - Vanilla JavaScript
 
-### Possible future updates:
+## Possible future updates:
 
 - Refactor JavaScript
 - Add a color-coded password strength bar
