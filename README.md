@@ -10,7 +10,7 @@ My solution uses four JS functions to complete the challenge and is [hosted here
 - Button to generate 4 random password options
 - Display password options
 
-## This project utilizes the following technologies:
+## Project uses the following technologies:
 
 - HTML
 - CSS
