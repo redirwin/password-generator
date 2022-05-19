@@ -62,6 +62,11 @@ button {
   margin-right: 15px;
 }
 
+#user-input {
+  display: flex;
+  justify-content: space-between;
+}
+
 #password-display-section {
   border-top: 1px solid #2f3e53;
   padding: 35px 0;

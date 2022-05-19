@@ -6,6 +6,7 @@ function fetchPasswords() {
 
   for (let i = 0; i < passwordElements.length; i++) {
     passwordElements[i].classList.remove("has-dots");
+    passwordElements[i].classList.add("has-password");
     passwordElements[i].value = generatePassword(10);
   }
   asciiList = [];
@@ -36,4 +37,8 @@ function getRandomNumberList(size) {
     list.push(Math.floor(Math.random() * asciiList.length));
   }
   return list;
+}
+
+function copyToClipboard() {
+  console.log("Copied!");
 }
