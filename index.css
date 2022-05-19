@@ -7,7 +7,9 @@
 body {
   background: #1c1c1c;
   color: white;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Inter", sans-serif;
@@ -51,6 +53,7 @@ button {
   border-radius: 5px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 #button-icon {
@@ -100,4 +103,28 @@ input {
   text-align: center;
   color: #55f991;
   letter-spacing: 2px;
+}
+
+#about {
+  width: 550px;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+
+#about a {
+  border-radius: 50%;
+  border: 1px solid white;
+  background: #10b981;
+  color: white;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  top: -20px;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
