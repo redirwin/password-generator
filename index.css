@@ -44,8 +44,8 @@ h3 {
 button {
   margin-top: 51px;
   margin-bottom: 35px;
-  background: #10b981;
   color: white;
+  background: #10b981;
   font-size: 16px;
   line-height: 24px;
   padding: 9px 17px;
@@ -115,8 +115,8 @@ input {
 #about a {
   border-radius: 50%;
   border: 1px solid white;
-  background: #10b981;
   color: white;
+  background: #273549;
   height: 35px;
   width: 35px;
   font-size: 20px;
@@ -127,4 +127,9 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#about a:hover {
+  background: #10b981;
+  transition-duration: 0.25s;
 }
