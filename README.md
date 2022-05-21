@@ -18,6 +18,7 @@ My solution uses four JS functions to complete the challenge and is **[hosted he
 
 ## Thoughts on possible upgrades:
 
+- Make mobile-responsive
 - Add a color-coded password strength bar
 - Add _click to copy_ on each password field
 - Add user input options for password length and types of characters allowed
